@@ -1,0 +1,26 @@
+{
+  "name": "automation-test-blazor-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-ui": "playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zahari-V/Automation-Test-Blazor-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zahari-V/Automation-Test-Blazor-Website/issues"
+  },
+  "homepage": "https://github.com/Zahari-V/Automation-Test-Blazor-Website#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
